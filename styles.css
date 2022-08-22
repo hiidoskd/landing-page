@@ -1,0 +1,45 @@
+/* Reset  */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* Header */
+header {
+  background-color: #1f2937;
+  height: 64px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #f9faf8;
+  flex: 1;
+  font-size: 24px;
+  justify-content: end;
+  display: flex;
+}
+
+.menu {
+  margin-right: 3vw;
+  color: #e5e7eb;
+  font-size: 18px;
+  flex: 3;
+  justify-content: end;
+  display: flex;
+  gap: 24px;
+}
+
+/* Section one styling */
+.section-one {
+  width: 100vw;
+  height: 472px;
+  background-color: #1f2937;
+  display: flex;
+}
