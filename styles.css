@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  max-width: 100vw;
 }
 
 a {
@@ -27,7 +28,8 @@ header {
 }
 
 .menu {
-  margin-right: 3vw;
+  position: relative;
+  right: 3vw;
   color: #e5e7eb;
   font-size: 18px;
   flex: 3;
@@ -93,4 +95,36 @@ header {
     
   background-color: #4f91fb;
   color: #fff;
+}
+/* Section two */
+.section-two {
+  width: 100vw;
+  height: 472px;
+  background-color: #f9faf8;
+  display: flexbox;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.figures {
+  display: flex;
+  justify-content:space-evenly;
+}
+figure {
+  width: 200px;
+  height: 300px;
+}
+.figures img{
+  flex: 1;
+  border: 2px #3882f6 solid;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
 }
